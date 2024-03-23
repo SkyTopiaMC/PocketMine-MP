@@ -1,0 +1,3 @@
+              - name: Setup PHP for PocketMine-MP
+                uses: pmmp/setup-php-action@3.1.0
+            
