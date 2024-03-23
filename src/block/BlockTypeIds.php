@@ -90,6 +90,7 @@ final class BlockTypeIds{
 	public const BIRCH_TRAPDOOR = 10047;
 	public const BIRCH_WALL_SIGN = 10048;
 	public const BIRCH_WOOD = 10049;
+	public const COMMAND_BLOCK = 10050;
 
 	public const BLAST_FURNACE = 10051;
 

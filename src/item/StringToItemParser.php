@@ -152,6 +152,7 @@ final class StringToItemParser extends StringToTParser{
 		$result->registerBlock("barrier", fn() => Blocks::BARRIER());
 		$result->registerBlock("basalt", fn() => Blocks::BASALT());
 		$result->registerBlock("beacon", fn() => Blocks::BEACON());
+		$result->registerBlock("command_block", fn() => Blocks::COMMAND_BLOCK());
 		$result->registerBlock("bed", fn() => Blocks::BED());
 		$result->registerBlock("bed_block", fn() => Blocks::BED());
 		$result->registerBlock("bedrock", fn() => Blocks::BEDROCK());

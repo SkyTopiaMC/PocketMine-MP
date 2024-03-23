@@ -23,6 +23,7 @@ declare(strict_types=1);
 
 namespace pocketmine\block\tile;
 
+use pocketmine\block\CommandBlock;
 use pocketmine\data\SavedDataLoadingException;
 use pocketmine\math\Vector3;
 use pocketmine\nbt\NbtException;
@@ -59,6 +60,7 @@ final class TileFactory{
 		$this->register(BrewingStand::class, ["BrewingStand", "minecraft:brewing_stand"]);
 		$this->register(Cauldron::class, ["Cauldron", "minecraft:cauldron"]);
 		$this->register(Chest::class, ["Chest", "minecraft:chest"]);
+		$this->register(CommandBlock::class, ["Command Block", "minecraft:command_block"]);
 		$this->register(ChiseledBookshelf::class, ["ChiseledBookshelf", "minecraft:chiseled_bookshelf"]);
 		$this->register(Comparator::class, ["Comparator", "minecraft:comparator"]);
 		$this->register(DaylightSensor::class, ["DaylightDetector", "minecraft:daylight_detector"]);

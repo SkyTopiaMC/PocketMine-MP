@@ -188,6 +188,7 @@ use function strtolower;
  * @method static Opaque CHISELED_STONE_BRICKS()
  * @method static ChorusFlower CHORUS_FLOWER()
  * @method static ChorusPlant CHORUS_PLANT()
+ * @method static CommandBlock COMMAND_BLOCK()
  * @method static Clay CLAY()
  * @method static Coal COAL()
  * @method static CoalOre COAL_ORE()
@@ -808,6 +809,7 @@ final class VanillaBlocks{
 		self::register("barrel", new Barrel(new BID(Ids::BARREL, TileBarrel::class), "Barrel", new Info(BreakInfo::axe(2.5))));
 		self::register("barrier", new Transparent(new BID(Ids::BARRIER), "Barrier", new Info(BreakInfo::indestructible())));
 		self::register("beacon", new Beacon(new BID(Ids::BEACON, TileBeacon::class), "Beacon", new Info(new BreakInfo(3.0))));
+		self::register("command_block", new CommandBlock(new BID(Ids::COMMAND_BLOCK), "Command Block", new Info(new BreakInfo(3.0))));
 		self::register("bed", new Bed(new BID(Ids::BED, TileBed::class), "Bed Block", new Info(new BreakInfo(0.2))));
 		self::register("bedrock", new Bedrock(new BID(Ids::BEDROCK), "Bedrock", new Info(BreakInfo::indestructible())));
 
